@@ -6,6 +6,12 @@ import java.util.ArrayList;
  */
 public class SharedData 
 {
+	/**
+	 * @param array stores a list of integers
+	 * @param winArray stores a boolean list of results
+	 * @param flag for decisions (use or don't use a certain value)
+	 * @param b constant integer to sum results
+	 */
 	private ArrayList<Integer> array;
 	private boolean [] winArray;
 	private boolean flag;
