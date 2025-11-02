@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-/**
+/** jyfhg
  * The following class holds and shares data between 
  * components or threads
  */
@@ -17,7 +17,7 @@ public class SharedData
 	private boolean flag;
 	private final int b;
 	
-	/**
+	/**  hihbjnlnkn
 	 * @param array		Holds list of integer variables
 	 * @param b			Integer that holds the sum of 2 numbers
 	 */
@@ -27,7 +27,7 @@ public class SharedData
 		this.b = b;
 	}
 
-	/**
+	/** jhvbjh
 	 * @return			getter that sends an array of boolean values
 	 */
 	public boolean[] getWinArray() 
@@ -35,7 +35,7 @@ public class SharedData
 		return winArray;
 	}
 
-	/**
+	/**  ojo
 	 * @param winArray		setter that updates the boolean array
 	 */
 	public void setWinArray(boolean [] winArray) 
@@ -43,7 +43,7 @@ public class SharedData
 		this.winArray = winArray;
 	}
 
-	/**
+	/** oiuhhuoo
 	 * @return		getter that sends an array of integer values
 	 */
 	public ArrayList<Integer> getArray() 
@@ -51,7 +51,7 @@ public class SharedData
 		return array;
 	}
 
-	/**
+	/** hjhi
 	 * @return		the final integer b
 	 */
 	public int getB() 
@@ -59,7 +59,7 @@ public class SharedData
 		return b;
 	}
 
-	/**
+	/** ojoon
 	 * @return		the boolean value of flag
 	 */
 	public boolean getFlag() 
@@ -67,7 +67,7 @@ public class SharedData
 		return flag;
 	}
 
-	/**
+	/**  iuiuhhuo
 	 * @param flag		setter for the boolean parameter flag
 	 */
 	public void setFlag(boolean flag) {
